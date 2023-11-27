@@ -92,6 +92,34 @@
 /* Other styles for the search */
 /* ... */
 
+/* Filter styles */
+.filter {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-left: 50px;
+}
+
+.filter-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  background-color: #ff6347; /* Adjust the color to your preference */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filter-btn:hover {
+  background-color: #d84315; /* Adjust the hover color */
+}
+
 /* Shimmer Component styles */
 .shimmer-container {
   display: flex;
@@ -147,6 +175,33 @@
     -webkit-box-orient: vertical;
 }
 
+/* Filter styles */
+.filter {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+}
+
+.filter-btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    background-color: #ff6347; /* Adjust the color to your preference */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filter-btn:hover {
+    background-color: #d84315; /* Adjust the hover color */
+}
 
 /* Shimmer Component styles */
 .shimmer-container {
@@ -203,8 +258,6 @@
     align-items: center;
     padding: 20px;
     background-color: #f0f0f0; /* Change the background color as desired */
-    border: 1px solid #ccc;
-
 }
 
 /* Logo styles */
@@ -248,6 +301,34 @@
     display: -webkit-box;
     -webkit-line-clamp: 1; /* Limit to one line */
     -webkit-box-orient: vertical;
+}
+
+/* Filter styles */
+.filter {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+}
+
+.filter-btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    background-color: #ff6347; /* Adjust the color to your preference */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filter-btn:hover {
+    background-color: #d84315; /* Adjust the hover color */
 }
 
 /* Shimmer Component styles */
@@ -303,18 +384,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 20px;
     background-color: #f0f0f0; /* Change the background color as desired */
 }
 
-/* Logo styles */ 
+/* Logo styles */
 .logo-container {
     margin-right: 20px;
 }
 
 .logo {
     width: 120px;
-    height: 80px;
+    height: auto;
 }
 
 /* Navigation styles */
@@ -327,9 +408,8 @@
 }
 
 .nav-items ul li {
-    margin-right: 30px;
-    font-size: 20px;
-    padding: 10px;
+    margin-right: 20px;
+    font-size: 16px;
 }
 
 /* Adjustments for responsiveness or specific breakpoints as needed */
@@ -337,68 +417,3 @@
 
 /* Additional styles */
 /* ... */
-
-
-/* Global styles */
-/* ... */
-
-/* Search styles */
-/* Filter styles */
-.filter {
-  display: flex;
-  align-items:center;
-  justify-content:left;
-  padding: 15px 20px 0px;
-  border-radius: 6px;
-  margin-top: 10px; /* Adjust the margin-top as needed */
-
-  
-}
-
-.filter-btn,
-.search button {
-  padding: 12px 24px;
-  font-size: 16px;
-  font-weight: bold;
-  border: none;
-  border-radius: 6px;
-  background-color: #ff6347;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.filter-btn {
-  margin-left: 20px;
-  margin-bottom: 15px;
-}
-
-.filter-btn:hover,
-.search button:hover {
-  background-color: #d84315;
-}
-
-.search {
-  display: flex;
-  align-items: center;
-  width: calc(40% - 10px); /* Adjust the width as needed */
-  border: 1px solid #ccc;
-  border-radius: 8px;
-
-}
-
-.search-box {
-  padding: 10px;
-  margin-right: 10px;
-  border: 1px solid #ccc;
-
-  border-radius: 6px;
-  font-size: 16px;
-  flex: 1;
-}
-
-.res-container {
-  margin-top: none /* Adjust the margin-top as needed */
-}
